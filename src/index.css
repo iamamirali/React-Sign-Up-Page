@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Orelega+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orelega One", cursive;
+  transition: all 0.4s;
+}
+.container {
+  padding: 10px;
+  text-align: center;
+  width: 60%;
+  margin: 50px auto 10px auto;
+  background-color: #1d1b1b;
+  border-radius: 15px;
+}
+.input {
+  margin: 3px auto 15px auto;
+  width: 70%;
+  background-color: #ffffff;
+  padding: 8px;
+  border-style: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+.error {
+  border-radius: 15px;
+  text-align: center;
+  margin: 30px auto -30px auto;
+  padding: 5px;
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 60%;
+  background-color: #ec4d37;
+  color: #1d1b1b;
+}
+label {
+  color: #ec4d37;
+  font-size: 1.5rem;
+}
+.btn {
+  padding: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #f34c36;
+  margin: 8px;
+  color: #1d1b1b;
+  border-radius: 10px;
+  border-style: none;
+}
+.welcome {
+  margin: 50px auto 10px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #1d1b1b;
+}
+.message {
+  font-size: 1.8rem;
+  color: #ec4d37;
+}
+
+input:hover {
+  background-color: #ffa99d;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: #f34c36;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    background-color: #1d1b1b;
+    border-radius: 10px;
+  }
+  .input {
+    margin: 1px auto 15px auto;
+    width: 90%;
+    background-color: #ffffff;
+    padding: 5px;
+    border-style: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  .error {
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 90%;
+    background-color: #ec4d37;
+    color: #1d1b1b;
+  }
+  label {
+    color: #ec4d37;
+    font-size: 1.2rem;
+  }
+  .btn {
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #f34c36;
+    color: #1d1b1b;
+    border-radius: 8px;
+    border-style: none;
+  }
+  .welcome {
+    margin: 30px auto 10px auto;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1d1b1b;
+  }
+  .message {
+    font-size: 1rem;
+    color: #ec4d37;
+  }
+}
+input:hover {
+  background-color: #ffa99d;
+}
+.btn:hover {
+  background-color: #ffffff;
+  color: #f34c36;
+}
